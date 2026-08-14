@@ -1,0 +1,131 @@
+import { Listing, ClosedDeal } from "@/lib/types";
+
+export const listings: Listing[] = [
+  {
+    id: "l1",
+    slug: "profitable-cloud-kitchen-chain-pune",
+    title: "Profitable Cloud Kitchen Chain",
+    sector: "Restaurant / Cafe",
+    location: "Pune",
+    state: "Maharashtra",
+    type: ["full-sale"],
+    askRangeLabel: "INR 1 Cr - 2 Cr",
+    annualRevenueLabel: "INR 3.2 Cr",
+    established: 2019,
+    teamSize: 34,
+    summary:
+      "4-outlet cloud kitchen brand with its own delivery app, steady Swiggy/Zomato ranking, and a central commissary kitchen.",
+    details:
+      "The business operates four cloud kitchen units across Pune serving North Indian and Continental menus. Strong repeat-customer base, positive EBITDA for the last 3 years, lease-held commissary kitchen with 5 years remaining. Owner is exiting to relocate abroad.",
+    featured: true,
+    verified: true,
+  },
+  {
+    id: "l2",
+    slug: "b2b-saas-logistics-startup-raising-seed",
+    title: "B2B Logistics SaaS Raising Seed Round",
+    sector: "IT & Software",
+    location: "Bengaluru",
+    state: "Karnataka",
+    type: ["raise-equity"],
+    askRangeLabel: "INR 2 Cr - 4 Cr",
+    annualRevenueLabel: "INR 85 Lakh (ARR)",
+    established: 2023,
+    teamSize: 12,
+    summary:
+      "Fleet-tracking and route optimisation SaaS for mid-size logistics companies, live with 40 paying customers.",
+    details:
+      "Product-market fit established with 40 paying B2B customers across 3 states, 92% logo retention. Raising a seed round to build out the sales team and expand to 2 new states. Founders are second-time entrepreneurs.",
+    featured: true,
+    verified: true,
+  },
+  {
+    id: "l3",
+    slug: "manufacturing-unit-auto-components-jaipur",
+    title: "Auto Components Manufacturing Unit",
+    sector: "Manufacturing",
+    location: "Jaipur",
+    state: "Rajasthan",
+    type: ["full-sale", "raise-debt"],
+    askRangeLabel: "INR 4 Cr - 6 Cr",
+    annualRevenueLabel: "INR 9.5 Cr",
+    established: 2011,
+    teamSize: 58,
+    summary:
+      "Established precision-machining unit supplying to 3 automotive OEMs, own factory land and machinery included.",
+    details:
+      "14-year-old manufacturing business with long-term supply contracts to 3 automotive OEMs. Owned factory shed on 1.2 acres, BS-VI compliant tooling. Promoter looking to exit for succession reasons; open to a partial debt-funded buyout structure.",
+    featured: false,
+    verified: true,
+  },
+  {
+    id: "l4",
+    slug: "d2c-skincare-brand-ecommerce-mumbai",
+    title: "D2C Skincare Brand",
+    sector: "E-commerce",
+    location: "Mumbai",
+    state: "Maharashtra",
+    type: ["raise-equity", "full-sale"],
+    askRangeLabel: "INR 75 Lakh - 1.5 Cr",
+    annualRevenueLabel: "INR 2.1 Cr",
+    established: 2021,
+    teamSize: 9,
+    summary:
+      "Ayurvedic skincare D2C brand with its own formulation IP, profitable on Amazon and D2C website.",
+    details:
+      "Own-formulated skincare line with 14 SKUs, positive contribution margin across Amazon, Nykaa and D2C channels. Founder open to either a full exit or bringing in growth capital to scale paid marketing and enter modern trade retail.",
+    featured: false,
+    verified: true,
+  },
+  {
+    id: "l5",
+    slug: "k12-coaching-institute-franchise-lucknow",
+    title: "K-12 Coaching Institute - Franchise Opportunity",
+    sector: "Education",
+    location: "Lucknow",
+    state: "Uttar Pradesh",
+    type: ["franchise"],
+    askRangeLabel: "INR 15 Lakh - 25 Lakh",
+    annualRevenueLabel: "INR 1.1 Cr (flagship centre)",
+    established: 2016,
+    teamSize: 22,
+    summary:
+      "9-year-old coaching brand for classes 6-12 expanding via franchise across UP and Bihar.",
+    details:
+      "Established curriculum, teacher-training program and a recognisable regional brand. Franchise package includes territory exclusivity, curriculum licensing, and centralised student-tracking software.",
+    featured: false,
+    verified: true,
+  },
+  {
+    id: "l6",
+    slug: "specialty-gym-fitness-chain-hyderabad",
+    title: "Boutique Fitness Studio Chain",
+    sector: "Gym & Fitness",
+    location: "Hyderabad",
+    state: "Telangana",
+    type: ["full-sale"],
+    askRangeLabel: "INR 60 Lakh - 90 Lakh",
+    annualRevenueLabel: "INR 1.4 Cr",
+    established: 2018,
+    teamSize: 16,
+    summary:
+      "3-studio boutique fitness chain (HIIT & strength) with a loyal membership base and instructor-training program.",
+    details:
+      "Membership-driven revenue model with roughly 900 active members across 3 locations, healthy renewal rates, and a proprietary instructor certification program that could be licensed separately.",
+    featured: false,
+    verified: false,
+  },
+];
+
+export const closedDeals: ClosedDeal[] = [
+  { id: "d1", headline: "Ahmedabad logistics company acquired by a Mumbai-based group", sizeLabel: "INR 10-25 Cr" },
+  { id: "d2", headline: "Hyderabad food-tech startup raised its seed round", sizeLabel: "INR 4 Cr" },
+  { id: "d3", headline: "Herbal products trading company from Delhi acquired in 30 days", sizeLabel: "INR 10 Lakh" },
+  { id: "d4", headline: "E-commerce business from Kolkata acquired by a Bengaluru buyer", sizeLabel: "INR 10-50 Lakh" },
+  { id: "d5", headline: "Battery manufacturing unit from Pune sold to a Hyderabad buyer", sizeLabel: "INR 10-50 Lakh" },
+  { id: "d6", headline: "Business intelligence startup closed its funding round", sizeLabel: "INR 60 Lakh" },
+  { id: "d7", headline: "Bakery chain signed a new franchise investor from Bengaluru", sizeLabel: "INR 10-35 Lakh" },
+  { id: "d8", headline: "IT staffing company from Bengaluru merged with a Mumbai peer", sizeLabel: "Private" },
+  { id: "d9", headline: "Pre-school in Kolhapur sold to a Mumbai-based buyer", sizeLabel: "INR 50 Lakh - 1 Cr" },
+  { id: "d10", headline: "Pharmacy chain in Ahmedabad sold to a local buyer", sizeLabel: "INR 50 Lakh - 1 Cr" },
+];
